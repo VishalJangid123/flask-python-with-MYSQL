@@ -1,0 +1,16 @@
+<html>
+   <body>
+<h2>Edit Movie</h2>
+
+      <form action = "http://localhost:5000/updatemovie" method = "post">
+         <label>Enter Name:</label>
+         <p><input type = "text" name = "moviename" value={{data[0][0]}} /></p>
+<label>Enter Location:</label>
+        <p><input type = "text" name = "movielocation" value={{data[0][1]}} /></p>
+<label>Enter Timing:</label>
+        <p><input type = "text" name = "movietiming" value={{data[0][2]}} /></p>
+
+         <p><input type = "submit" value = "submit" /></p>
+      </form>
+   </body>
+</html>
